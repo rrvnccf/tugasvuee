@@ -9,9 +9,11 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
+    "axios": "^1.1.2",
     "bootstrap": "^5.2.2",
     "core-js": "^3.8.3",
     "vue": "^3.2.13",
+    "vue-axios": "^3.4.1",
     "vue-router": "^4.1.5"
   },
   "devDependencies": {
@@ -36,7 +38,8 @@
       "parser": "@babel/eslint-parser"
     },
     "rules": {
-      "vue/multi-word-component-names": "off"
+      "vue/multi-word-component-names": "off",
+      "vue/no-mixed-spaces-and-tabs": 0
     }
   },
   "browserslist": [
