@@ -2,7 +2,6 @@
     <div class="container m-5">
         <table class="table">
           <tr>
-            <th>No</th>
             <th>Nama</th>
             <th>UserId</th>
           </tr>
