@@ -5,6 +5,7 @@ import About from "../components/About.vue";
 import Privacy from "../components/Privacy.vue";
 import Login from "../components/Login.vue";
 import Register from "../components/Register.vue";
+import Users from "../components/Users.vue";
 
 const routes = [
 	{
@@ -31,6 +32,11 @@ const routes = [
 		path: "/register",
 		name: "Register",
 		component: Register
+	},
+	{
+		path: "/users",
+		name: "Users",
+		component: Users
 	}
 ];
 
